@@ -1,9 +1,9 @@
 {
   "name": "tribe.expressions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provides a common representation for simple expressions and tools for evaluating them. Part of the tribe platform.",
   "main": "index.js",
-  "homepage": "http://github.com/danderson00/tribe",
+  "homepage": "http://github.com/danderson00/tribe.expressions",
   "author": {
     "name": "Dale Anderson",
     "email": "tribejs@gmail.com",
@@ -24,7 +24,7 @@
     }
   ],
   "bugs": {
-    "url": "http://github.com/danderson00/tribe/issues"
+    "url": "http://github.com/danderson00/tribe.expressions/issues"
   },
   "license": {
     "type": "MIT",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/danderson00/tribe.git"
+    "url": "git://github.com/danderson00/tribe.expressions.git"
   },
   "readmeFilename": "README.md"
 }
