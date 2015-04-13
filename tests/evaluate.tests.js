@@ -32,4 +32,9 @@
         expect(evaluate({ p: 'value', o: 'contains', v: 'll st' }, { value: 'full string' })).to.be.true;
         expect(evaluate({ p: 'value', o: 'contains', v: 'llst' }, { value: 'full string' })).to.be.false;
     });
+
+    test("evaluate array of expressions", function () {
+      expect(evaluate([{ p: 'v1', o: '=', v: 1 }, { p: 'v2', o: '=', v: 2 }], { v1: 1, v2: 2 })).to.be.true;
+      expect(evaluate([{ p: 'v1', o: '=', v: 1 }, { p: 'v2', o: '=', v: 2 }], { v1: 1, v2: 1 })).to.be.false;
+    });
 });
